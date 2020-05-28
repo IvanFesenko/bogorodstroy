@@ -23,6 +23,9 @@ html {
 
 .header {
   padding-top: 32px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #282828;
 }
 /* 
 .logo-wrapper {
@@ -32,6 +35,7 @@ html {
 .header > .container {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 24px;
 }
 
 .logo::after {
@@ -81,4 +85,32 @@ html {
 [class*="--icon"] {
   width: 20px;
   height: 20px;
+  fill: #fff;
+}
+
+[class*="--icon-wrapper"] {
+  width: 34px;
+  height: 34px;
+  background-color: #f96501;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  left: -50px;
+}
+
+.header__timing--description,
+.header__contacts--description {
+  margin-bottom: 16px;
+}
+
+.header__timing--title,
+.header__contacts--title {
+  padding-bottom: 8px;
+  font-size: 17px;
+}
+
+.header__link {
+  color: #009b8b;
+  text-decoration: dotted;
 }
