@@ -5,16 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bogorstroy</title>
     <meta name="author" content="Ivan Fesenko" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <header class="header">
-      <div class="logo-wrapper">
-        <a href="#" class="logo"
-          >Bogorod <span class="logo--span">stroy</span></a
-        >
+      <div class="container">
+        <div class="header__logo">
+          <a href="#" class="logo"
+            ><img src="./img/logo.png" alt="" class="logo__img"
+          /></a>
+        </div>
+        <div class="header__info">
+          <div class="header__timing relative">
+            <svg class="header__timing--icon absolute">
+              <use href="./img/icons/sprite.svg#icon-clock"></use>
+            </svg>
+            <p class="header__timing--title">Режим работы</p>
+            <p class="header__timing--description">Ежедневно с 9:00 до 19:00</p>
+            <a href="#" class="header__link">Вызвать замерщика</a>
+          </div>
+          <div class="header__contacts relative">
+            <svg class="header__contacts--icon absolute">
+              <use href="./img/icons/sprite.svg#icon-phone"></use>
+            </svg>
+            <p class="header__contacts--title">Режим работы</p>
+            <p class="header__contacts--description">
+              Ежедневно с 9:00 до 19:00
+            </p>
+            <a href="#" class="header__link">Вызвать замерщика</a>
+          </div>
+        </div>
       </div>
       <nav class="navigation">
         <div class="container">
@@ -45,25 +72,17 @@
       </nav>
     </header>
 
-    <!-- <div class="container">
-      <ul class="slider">
-        <li class="slider__item">
-          <img src="https://picsum.photos/seed/picsum/800/400" alt="1" />
-        </li>
-        <li class="slider__item">
-          <img src="https://picsum.photos/seed/picsum/800/400" alt="2" />
-        </li>
-        <li class="slider__item">
-          <img src="https://picsum.photos/seed/picsum/800/400" alt="N" />
-        </li>
-        <li class="slider__item">
-          <img src="https://picsum.photos/seed/picsum/800/400" alt="N" />
-        </li>
-        <li class="slider__item">
-          <img src="https://picsum.photos/seed/picsum/800/400" alt="N" />
-        </li>
-      </ul>
-    </div> -->
+    <ul class="banner">
+      <li class="slider__item">
+        <img src="./img/banner/banner1.webp" alt="1" />
+      </li>
+      <li class="slider__item">
+        <img src="./img/banner/banner2.webp" alt="2" />
+      </li>
+      <li class="slider__item">
+        <img src="./img/banner/banner3.webp" alt="N" />
+      </li>
+    </ul>
 
     <script
       type="text/javascript"

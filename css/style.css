@@ -1,3 +1,6 @@
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Open Sans', sans-serif; */
+
 body {
   font-family: var(--main-font);
 }
@@ -15,4 +18,67 @@ html {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  padding-top: 32px;
+}
+/* 
+.logo-wrapper {
+  margin-bottom: 22px;
+} */
+
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo::after {
+  content: "";
+  display: block;
+  width: 240px;
+  height: 42px;
+  background: url(../img/icons/logo-bg.png);
+}
+
+.header__info {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.navigation {
+  background-color: #4f4945;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 13px 10px;
+}
+
+.menu__item-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+/* 
+.banner {
+  display: flex;
+} */
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+[class*="--icon"] {
+  width: 20px;
+  height: 20px;
 }
