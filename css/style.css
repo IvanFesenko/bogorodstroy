@@ -180,7 +180,7 @@ html {
 .hit-title::before {
   content: "";
   width: 0px;
-  height: 0xp;
+  height: 0px;
   border-style: solid;
   border-width: 0 15px 15px 0;
   border-color: transparent #c44f01 transparent transparent;
