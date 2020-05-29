@@ -27,10 +27,10 @@ html {
   font-size: 14px;
   color: #282828;
 }
-/* 
-.logo-wrapper {
-  margin-bottom: 22px;
-} */
+
+.logo {
+  display: block;
+}
 
 .header > .container {
   display: flex;
@@ -102,7 +102,7 @@ html {
 
 .header__timing--title,
 .header__contacts--title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-size: 17px;
 }
 
