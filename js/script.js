@@ -12,4 +12,10 @@ $(document).ready(function () {
     arrows: true,
     slidesToShow: 3,
   });
+  $(".works__list").slick({
+    infinite: true,
+    dots: false,
+    arrows: true,
+    slidesToShow: 3,
+  });
 });

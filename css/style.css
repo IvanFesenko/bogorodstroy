@@ -122,7 +122,10 @@ html {
 }
 
 .trade-hits,
-.why-we {
+.why-we,
+.catalog,
+.works,
+.feedback {
   padding-top: 30px;
   padding-bottom: 20px;
 }
@@ -145,6 +148,7 @@ html {
   font-size: 0;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 /* Стрелка влево */
@@ -226,4 +230,58 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.catalog__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.catalog__list-item {
+  flex-basis: 174px;
+  margin-bottom: 38px;
+}
+
+.catalog__list-item--imgwrapper {
+  margin-bottom: 32px;
+}
+
+.catalog__list-item--name {
+  font-size: 14px;
+  color: #3f3f3f;
+  text-align: center;
+}
+
+.works__list {
+  padding-left: 20px;
+}
+
+.works__list-item {
+  max-width: 290px;
+}
+
+.works__list .slick-arrow {
+  position: absolute;
+  z-index: 5;
+  top: 60px;
+  width: 24px;
+  height: 84px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.works__list .slick-arrow.slick-prev {
+  background-image: url(../img/works/left-arrow.png);
+  left: -16px;
+}
+
+.works__list .slick-arrow.slick-next {
+  background-image: url(../img/works/right-arrow.png);
+  right: -16px;
 }
