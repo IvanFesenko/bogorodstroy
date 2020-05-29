@@ -6,4 +6,10 @@ $(document).ready(function () {
     dots: false,
     arrows: false,
   });
+  $(".trade-hits__list").slick({
+    infinite: true,
+    dots: false,
+    arrows: true,
+    slidesToShow: 3,
+  });
 });
