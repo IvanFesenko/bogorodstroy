@@ -16,7 +16,7 @@ html {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 970px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -125,7 +125,10 @@ html {
 .why-we,
 .catalog,
 .works,
-.feedback {
+.feedback,
+.how-we-work,
+.features,
+.sertificates {
   padding-top: 30px;
   padding-bottom: 20px;
 }
@@ -284,4 +287,56 @@ html {
 .works__list .slick-arrow.slick-next {
   background-image: url(../img/works/right-arrow.png);
   right: -16px;
+}
+
+.feedback__form {
+  width: 950px;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 107, 96, 0.8) 0%,
+      rgba(0, 107, 96, 0.8) 100%
+    ),
+    url(../img/feedback/bg.png);
+
+  padding: 46px 46px 41px 46px;
+  color: #fff;
+}
+
+.feedback__form-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 42px;
+}
+
+.feedback__form-title--br {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.feedback__form-name {
+  width: 315px;
+  font-size: 14px;
+  padding-left: 16px;
+}
+
+.feedback__form-tel {
+  width: 315px;
+  font-size: 14px;
+  padding-left: 16px;
+}
+
+.feedback__form-btn {
+  height: 38px;
+  width: 182px;
+  font-size: 14px;
+  background-color: #f96501;
+  color: #fff;
+  outline: none;
+  border: none;
 }
