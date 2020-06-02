@@ -340,3 +340,41 @@ html {
   outline: none;
   border: none;
 }
+
+.how-we-work__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.how-we-work__list-item {
+  max-width: 220px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-we-work__list-number {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #f96501;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 46px;
+}
+
+.how-we-work__list-number--number {
+  color: #f96501;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.we-best {
+  display: inline-block;
+  border-left: 40px solid transparent;
+  border-bottom: 84px solid #c30;
+  vertical-align: top;
+}
